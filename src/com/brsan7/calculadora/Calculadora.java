@@ -27,11 +27,12 @@ public class Calculadora {
 	public static int soma (int a, int b) {
 		return a + b;
 	}
+
 	public static int subtracao (int a, int b) {
 		return a - b;
 	}
 	public static float divisao (int a, int b) {
-		return (a+0F) / (b+0F);
+		return ((float)a / (float)b);
 	}
 	public static int multiplicacao (int a, int b) {
 		return a * b;
